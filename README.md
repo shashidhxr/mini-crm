@@ -2,10 +2,10 @@
 - git clone https://github.com/shashidhxr/mini-crm.git
 - cd mini-crm
 - cd ./backend
-- npm i
+- npm install
 - npm start
 - cd ./frontend (in another terminal)
-- npm i
+- npm install
 - npm run dev
 - navigate to http://localhost:5173/
 
