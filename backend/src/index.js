@@ -1,8 +1,10 @@
 import express from 'express';
 import { PrismaClient } from '@prisma/client';
 import { withAccelerate } from '@prisma/extension-accelerate';
+import cors from 'cors'
 
 const app = express();
+app.use(cors())
 app.use(express.json());
 
 const prisma = new PrismaClient().$extends(withAccelerate());
