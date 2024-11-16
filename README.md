@@ -3,7 +3,7 @@
 - cd mini-crm
 - cd ./backend
 - npm install
-  (create .env and define DATABASE_URL)
+- create .env and define DATABASE_URL
 - npm start
 - cd ./frontend (in another terminal)
 - npm install
